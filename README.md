@@ -1,99 +1,85 @@
 # Data Structure Final Review Notes (Modern C++ Refactored)
-## Project Overview
-This repository contains two complete final exam review handouts for college Data Structure courses, fully refactored with modern C++ standards, fixing logical gaps, typos, and outdated C-style memory management code from original drafts. All core algorithms, theoretical formulas, and exam high-frequency test points are sorted systematically for undergraduate midterm & final review.
+# 数据结构期末复习笔记（Modern C++ 重构版）
 
-Two documents are included:
-1. Volume 1: Full version of core review handout (Modern C++ Refactored Edition)
-2. Volume 2: Extended volume with extra exercises, multiple-choice summaries & detailed problem-solving walkthroughs
+## Project Overview | 项目概述
 
-All raw C-style `malloc/free`, outdated macro definitions and misspelled variables are removed; standard `new/delete` object-oriented C++ implementations are adopted for all data structure code samples, compliant with C++11 and above.
+This repository contains two complete final exam review handouts for college Data Structure courses, fully refactored with modern C++ standards. All core algorithms, theoretical formulas, and exam high-frequency test points are sorted systematically for undergraduate midterm & final review.
 
-## Key Content Coverage
-### 1. Fundamental Concepts & Algorithm Complexity
+本仓库包含两份完整的高校数据结构期末复习讲义，使用 Modern C++ 标准全面重构。所有核心算法、理论公式和考试高频考点均经过系统整理，适用于本科期中期末复习。
+
+### Documents | 文档列表
+
+1. **Volume 1**: Full version of core review handout (Modern C++ Refactored Edition) —— 核心复习讲义完整版
+2. **Volume 2**: Extended volume with extra exercises, multiple-choice summaries & detailed problem-solving walkthroughs —— 扩展卷，含练习题、选择题总结和详细解题思路
+
+All raw C-style `malloc/free`, outdated macro definitions and misspelled variables are removed; standard `new/delete` object-oriented C++ implementations are adopted, compliant with C++11 and above.
+
+所有 C 风格的 `malloc/free`、过时的宏定义和拼写错误的变量均已被移除；所有代码示例均采用标准的 `new/delete` 面向对象 C++ 实现，兼容 C++11 及以上标准。
+
+## Key Content Coverage | 核心内容
+
+### 1. Fundamental Concepts & Algorithm Complexity | 基础概念与算法复杂度
 - Definition hierarchy: Data / Data Element / Data Object / Data Structure
 - Logical structures: Set / Linear / Tree / Graph
-- Physical storage: Sequential / Linked / Index / Hash storage
+- Physical storage: Sequential / Linked / Index / Hash
 - Algorithm 5 core characteristics & evaluation criteria
 - Time & space complexity ranking, Big-O notation rules
 
-### 2. Linear Tables
-- Sequence table: Random access, insertion/deletion element movement calculation, memory addressing formula
-- Singly linked list (with/without head node): Empty judgment, insertion & deletion atomic operations
+### 2. Linear Tables | 线性表
+- Sequence table: Random access, element movement calculation, memory addressing
+- Singly linked list (with/without head node): Empty judgment, insertion & deletion
 - Doubly linked list core logic
-- Array & sparse matrix compression: Triple table, Orthogonal Linked List structure
+- Array & sparse matrix compression: Triple table, Orthogonal Linked List
 
-### 3. Stack & Queue
+### 3. Stack & Queue | 栈与队列
 - LIFO stack & FIFO queue core properties
 - Sequence stack, linked stack implementation
-- Circular queue (solve false overflow) judgment formulas & template code
+- Circular queue false overflow solution
 - Linked queue with head node encapsulation
 
-### 4. String, Generalized List
-- Empty string vs blank string distinction
-- BF brute-force pattern matching algorithm (0-index standard implementation)
-
-### 5. Tree & Binary Tree
-- Binary tree critical mathematical properties (leaf node formula $n_0 = n_2 + 1$)
-- Full binary tree & complete binary tree calculation examples
-- Pre-order / In-order / Post-order traversal recursive code
-- Rebuild binary tree from pre+in / post+in sequence
-- Tree & forest conversion rule (left-child right-sibling)
+### 4. String, Generalized List | 串与广义表
+### 5. Tree & Binary Tree | 树与二叉树
+- Binary tree mathematical properties (leaf formula n0 = n2 + 1)
+- Pre-order / In-order / Post-order traversal
 - Huffman Tree & Huffman coding, WPL calculation
 
-### 6. Graph Theory
-- Adjacency matrix & adjacency list storage comparison
-- DFS / BFS traversal logic
-- Minimum Spanning Tree: Prim (dense graph) & Kruskal (sparse graph)
-- Shortest path: Dijkstra (single source, no negative weight) & Floyd (all pairs)
+### 6. Graph Theory | 图论
+- Adjacency matrix & adjacency list comparison
+- DFS / BFS traversal
+- MST: Prim (dense) & Kruskal (sparse)
+- Shortest path: Dijkstra (single source) & Floyd (all pairs)
 
-### 7. Search Algorithms
-- Binary search prerequisites & implementation
-- Binary Sort Tree (BST) & AVL balanced tree rotation rules (LL/RR/LR/RL)
+### 7. Search Algorithms | 查找算法
+- Binary search, BST, AVL balanced tree rotation (LL/RR/LR/RL)
 - Average Search Length (ASL) calculation
 
-### 8. Internal Sorting
-- Complete comparison table of all sorting algorithms (time complexity, space, stability, scenarios)
+### 8. Internal Sorting | 内部排序
+- Complete comparison table of all sorting algorithms
 - Direct Insertion / Shell / Bubble / Quick / Selection / Heap / Merge Sort
-- Standard QuickSort partition core implementation
 
-## Repository Features
-1. **Exam-Oriented Summary**
-   Summarize high-frequency multiple-choice & big calculation questions, with common exam traps marked as notes to avoid score loss.
-2. **Standard Modern C++ Code**
-   Abandon C-style memory allocation; all data structures are encapsulated into classes with constructors & destructors for memory release. Template classes used for stack/queue universal implementation.
-3. **Clear Formula & Derivation**
-   All core mathematical formulas with complete derivation processes (e.g., complete binary tree leaf counting, array row/column priority addressing).
-4. **Distinction of Textbook & Modern Standard**
-   Mark differences between Yan Weimin’s classic 1-index textbook and modern C++ 0-index standards to avoid confusion in written exams.
-5. **Clear Error Correction**
-   Fix original manuscript logical errors, wrong complexity answers and spelling mistakes, with error alerts highlighted separately.
+## Repository Features | 仓库特点
 
-## Usage Guide
-### For Students
-- Personal review, print or split chapters for targeted recitation before final exams.
-- All code snippets can be copied directly for homework, lab reports and algorithm practice.
-- Highlighted exam pitfalls help you avoid common mistakes in written tests.
+1. **Exam-Oriented Summary** — 面向考试，标注易错点
+2. **Standard Modern C++ Code** — 标准 Modern C++ 代码
+3. **Clear Formula & Derivation** — 清晰的公式与推导
+4. **Distinction of Textbook & Modern Standard** — 区分教材经典写法与现代标准
+5. **Clear Error Correction** — 明确的错误修正
 
-### For Teachers & Open-Source Contributors
-- Free for personal learning & classroom auxiliary teaching.
-- **Commercial use, secondary packaging and unauthorized reprint are prohibited without author permission.**
+## Usage Guide | 使用指南
 
-## Language Note for Written Exams
-When handwriting code on paper exams:
-- Professors generally accept raw pointers and reference `&`; avoid `std::shared_ptr` / `auto` which may be judged incorrect.
-- Use `new` / `delete` for dynamic memory instead of C `malloc` / `free`.
+### For Students | 对学生
+- Personal review, print or split chapters for targeted recitation
+- All code snippets can be copied for homework and algorithm practice
+- Highlighted exam pitfalls help avoid common mistakes
 
-## Copyright & License
-© Akiro
-This project is open-source for personal learning purposes only.
-No commercial redistribution, repackaging or publication without explicit authorization from the author.
+### For Contributors | 对贡献者
+- Free for personal learning & classroom auxiliary teaching
+- Commercial use, secondary packaging and unauthorized reprint are prohibited
 
-## Contact & Contribution
-If you find formula errors, code bugs or content typos, feel free to submit Issues or Pull Requests to optimize this review material together.
+## Language Note | 笔试语言说明
 
-## Quick Navigation
-```
-├── Data_Structure_Review_Vol1.md    # Main complete review handout
-├── Data_Structure_Review_Vol2.md    # Extended volume with exercises & question analysis
-└── README.md                        # Project introduction
-```
+When handwriting code on paper exams, professors generally accept raw pointers and reference `&`; avoid `std::shared_ptr` / `auto` which may be judged incorrect.
+
+## License | 许可
+
+© Akiro. Personal learning use only. No commercial redistribution without authorization.
