@@ -1,5 +1,6 @@
 # CN-University-Exam-Notes
 
+[![Website](https://img.shields.io/badge/site-akiromusic.github.io-6D82FF)](https://akiromusic.github.io/CN-University-Exam-Notes/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Exam review notes for Chinese university courses, collected in one repository: **Advanced Mathematics (Part 1 & 2)**, **Linear Algebra**, **Data Structures**, and **Military Theory**. Each subfolder was merged from its own standalone repository (full commit history preserved).
