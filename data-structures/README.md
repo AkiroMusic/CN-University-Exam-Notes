@@ -1,14 +1,14 @@
-# Data Structure Final Review Notes (Modern C++ Refactored)
+# Data Structures Final Review Notes (Modern C++ Refactored)
 
 ## Project Overview
 
-This folder contains two complete final exam review handouts for college Data Structure courses, fully refactored with modern C++ standards, plus a past final exam paper with a question-by-question walkthrough and a C++ linked-list deep-dive. All core algorithms, theoretical formulas, and exam high-frequency test points are sorted systematically for undergraduate midterm & final review.
+This folder contains two complete final exam review handouts for college Data Structures courses, fully refactored with modern C++ standards, plus a past final exam paper with a question-by-question walkthrough and a C++ linked-list deletion deep-dive. All core algorithms, theoretical formulas, and exam high-frequency test points are sorted systematically for undergraduate midterm & final review.
 
 ### Documents
 
 1. **Volume 1**: Full version of core review handout (Modern C++ Refactored Edition) — [MD](<数据结构核心考点期末复习讲义（Modern C++ 重构版）.md>) · [PDF](<数据结构核心考点期末复习讲义（Modern C++ 重构版）.pdf>)
 2. **Volume 2**: Extended volume with extra exercises, multiple-choice summaries & detailed problem-solving walkthroughs — [MD](<数据结构核心考点期末复习讲义（第二册 · Modern C++ 重构版）.md>) · [PDF](<数据结构核心考点期末复习讲义（第二册 · Modern C++ 重构版）.pdf>)
-3. **Final exam paper**: a past Data Structures final exam covering six question types, from multiple choice to programming — [PDF](<数据结构期末试卷（2023-2024学年第一学期）.pdf>)
+3. **Final exam paper**: a past Data Structures final exam covering six question types: multiple choice, fill-in-the-blank, true/false, short answer, comprehensive, and programming — [PDF](<数据结构期末试卷（2023-2024学年第一学期）.pdf>)
 4. **Exam walkthrough**: answers and analysis for every question, a topic-weight breakdown of the paper, and a crash-review plan — [PDF](<数据结构期末试卷详细解析 + 期末突击复习指南.pdf>)
 5. **Linked-list deletion deep-dive**: a complete, runnable C++ template singly linked list with a head node, plus the knowledge points behind its delete function — [DOCX](<C++ 模板带头单链表删除函数实现与知识点解析.docx>)
 
@@ -24,17 +24,17 @@ In the two handouts, all raw C-style `malloc/free`, outdated macro definitions a
 - Algorithm 5 core characteristics & evaluation criteria
 - Time & space complexity ranking, Big-O notation rules
 
-### 2. Linear Tables
+### 2. Linear Lists
 
-- Sequence table: Random access, element movement calculation, memory addressing
-- Singly linked list (with/without head node): Empty judgment, insertion & deletion
+- Sequential list: random access, counting element shifts, memory addressing
+- Singly linked list (with/without a head node): emptiness check, insertion & deletion
 - Doubly linked list core logic
-- Array & sparse matrix compression: Triple table, Orthogonal Linked List
+- Arrays & sparse-matrix compression: triplet table, orthogonal (cross) linked list
 
 ### 3. Stack & Queue
 
 - LIFO stack & FIFO queue core properties
-- Sequence stack, linked stack implementation
+- Sequential stack and linked stack implementations
 - Circular queue false overflow solution
 - Linked queue with head node encapsulation
 

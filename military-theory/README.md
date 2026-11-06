@@ -1,6 +1,6 @@
 # Concise Edition of Chinese Military Theory
 
-Simplified and integrated the scope of military theory exam questions from Chinese universities, optimized for AI-assisted learning.
+A simplified, integrated edition of the exam scope for military theory courses at Chinese universities, optimized so it can be turned directly into a RAG vector knowledge base or imported into an AI assistant to improve answer accuracy.
 
 ## Features
 
@@ -14,7 +14,7 @@ Directly import the markdown files into an AI assistant or vector database for e
 
 ## License
 
-© Akiro. Personal learning use only.
+[MIT License](LICENSE) © 2026 Akiro
 
 ---
 
@@ -34,4 +34,4 @@ Directly import the markdown files into an AI assistant or vector database for e
 
 ## 许可
 
-© Akiro。仅限个人学习使用。
+[MIT License](LICENSE) © 2026 Akiro

@@ -8,7 +8,7 @@ Final-exam review notes for a Chinese university physics course (大学物理): 
 
 | File | Contents |
 | :--- | :--- |
-| [`知识点.md`](知识点.md) · [`知识点.pdf`](知识点.pdf) | Knowledge-point handbook for Chapters 1–14, written for newcomers |
+| [`知识点.md`](知识点.md) · [`知识点.pdf`](知识点.pdf) | Knowledge-point handbook for Chapters 1–14, written for readers with no prior background |
 | [`知识点总览.pdf`](知识点总览.pdf) | Formula and concept overview, mapped to the matching textbook exercises |
 | [`题目整理.md`](题目整理.md) · [`题目整理.pdf`](题目整理.pdf) | 16 selected problems from Chapters 1, 2, 3, 6, 9 and 10 (figures in [`figures/`](figures/)) |
 | [`解析.md`](解析.md) · [`解析.pdf`](解析.pdf) | Step-by-step solutions to the 16 problems |
@@ -17,12 +17,12 @@ Final-exam review notes for a Chinese university physics course (大学物理): 
 
 | Part | Chapters |
 | :--- | :--- |
-| Mechanics | 1 Kinematics of a particle · 2 Dynamics of a particle · 3 Rigid-body mechanics |
-| Relativity, oscillations and waves | 4 Special relativity · 5 Mechanical oscillations · 6 Mechanical waves |
-| Thermal physics | 7 Kinetic theory of gases · 8 Thermodynamics |
-| Electromagnetism | 9 Electrostatic field · 10 Steady magnetic field · 11 Electromagnetic induction · 12 Electromagnetic fields and waves |
+| Fundamentals of mechanics | 1 Kinematics of a particle · 2 Dynamics of a particle · 3 Rigid-body mechanics |
+| Relativity and mechanical waves | 4 Special relativity · 5 Mechanical oscillations · 6 Mechanical waves |
+| Fundamentals of thermal physics | 7 Kinetic theory of gases · 8 Fundamentals of thermodynamics |
+| Fundamentals of electromagnetism | 9 Electrostatic field · 10 Steady magnetic field · 11 Electromagnetic induction · 12 Electromagnetic fields and waves |
 | Wave optics | 13 Optics |
-| Quantum physics | 14 Fundamentals of quantum physics |
+| Fundamentals of quantum physics | 14 Fundamentals of quantum physics |
 
 ## License
 
