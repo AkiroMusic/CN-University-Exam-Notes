@@ -2,14 +2,17 @@
 
 ## Project Overview
 
-This repository contains two complete final exam review handouts for college Data Structure courses, fully refactored with modern C++ standards. All core algorithms, theoretical formulas, and exam high-frequency test points are sorted systematically for undergraduate midterm & final review.
+This folder contains two complete final exam review handouts for college Data Structure courses, fully refactored with modern C++ standards, plus a past final exam paper with a question-by-question walkthrough and a C++ linked-list deep-dive. All core algorithms, theoretical formulas, and exam high-frequency test points are sorted systematically for undergraduate midterm & final review.
 
 ### Documents
 
-1. **Volume 1**: Full version of core review handout (Modern C++ Refactored Edition)
-2. **Volume 2**: Extended volume with extra exercises, multiple-choice summaries & detailed problem-solving walkthroughs
+1. **Volume 1**: Full version of core review handout (Modern C++ Refactored Edition) — [MD](<数据结构核心考点期末复习讲义（Modern C++ 重构版）.md>) · [PDF](<数据结构核心考点期末复习讲义（Modern C++ 重构版）.pdf>)
+2. **Volume 2**: Extended volume with extra exercises, multiple-choice summaries & detailed problem-solving walkthroughs — [MD](<数据结构核心考点期末复习讲义（第二册 · Modern C++ 重构版）.md>) · [PDF](<数据结构核心考点期末复习讲义（第二册 · Modern C++ 重构版）.pdf>)
+3. **Final exam paper**: a past Data Structures final exam covering six question types, from multiple choice to programming — [PDF](<数据结构期末试卷（2023-2024学年第一学期）.pdf>)
+4. **Exam walkthrough**: answers and analysis for every question, a topic-weight breakdown of the paper, and a crash-review plan — [PDF](<数据结构期末试卷详细解析 + 期末突击复习指南.pdf>)
+5. **Linked-list deletion deep-dive**: a complete, runnable C++ template singly linked list with a head node, plus the knowledge points behind its delete function — [DOCX](<C++ 模板带头单链表删除函数实现与知识点解析.docx>)
 
-All raw C-style `malloc/free`, outdated macro definitions and misspelled variables are removed; standard `new/delete` object-oriented C++ implementations are adopted, compliant with C++11 and above.
+In the two handouts, all raw C-style `malloc/free`, outdated macro definitions and misspelled variables are removed; standard `new/delete` object-oriented C++ implementations are adopted, compliant with C++11 and above.
 
 ## Key Content Coverage
 
@@ -78,8 +81,7 @@ All raw C-style `malloc/free`, outdated macro definitions and misspelled variabl
 
 ### For Contributors
 
-- Free for personal learning & classroom auxiliary teaching
-- Commercial use, secondary packaging and unauthorized reprint are prohibited
+- Free to use, modify, and redistribute under the MIT License; keep the copyright notice
 
 ## Language Note
 
@@ -87,7 +89,7 @@ When handwriting code on paper exams, professors generally accept raw pointers a
 
 ## License
 
-© Akiro. Personal learning use only. No commercial redistribution without authorization.
+[MIT License](LICENSE) © 2026 Akiro
 
 ---
 
@@ -95,14 +97,17 @@ When handwriting code on paper exams, professors generally accept raw pointers a
 
 ## 项目概述
 
-本仓库包含两份完整的高校数据结构期末复习讲义，使用 Modern C++ 标准全面重构。所有核心算法、理论公式和考试高频考点均经过系统整理，适用于本科期中期末复习。
+本文件夹包含两份完整的高校数据结构期末复习讲义（使用 Modern C++ 标准全面重构），以及一份期末真题试卷与逐题解析、一份 C++ 单链表删除专题。所有核心算法、理论公式和考试高频考点均经过系统整理，适用于本科期中期末复习。
 
 ### 文档列表
 
-1. **卷一**：核心复习讲义完整版（Modern C++ 重构版）
-2. **卷二**：扩展卷，含练习题、选择题总结和详细解题思路
+1. **卷一**：核心复习讲义完整版（Modern C++ 重构版）— [MD](<数据结构核心考点期末复习讲义（Modern C++ 重构版）.md>) · [PDF](<数据结构核心考点期末复习讲义（Modern C++ 重构版）.pdf>)
+2. **卷二**：扩展卷，含练习题、选择题总结和详细解题思路 — [MD](<数据结构核心考点期末复习讲义（第二册 · Modern C++ 重构版）.md>) · [PDF](<数据结构核心考点期末复习讲义（第二册 · Modern C++ 重构版）.pdf>)
+3. **期末试卷**：数据结构期末真题，覆盖选择、填空、判断、简答、综合、编程六类题型 — [PDF](<数据结构期末试卷（2023-2024学年第一学期）.pdf>)
+4. **试卷解析**：逐题答案与解析、试卷考点分值分布，以及期末突击复习方案 — [PDF](<数据结构期末试卷详细解析 + 期末突击复习指南.pdf>)
+5. **单链表删除专题**：完整可运行的 C++ 模板带头单链表，以及删除函数背后的知识点 — [DOCX](<C++ 模板带头单链表删除函数实现与知识点解析.docx>)
 
-所有 C 风格的 `malloc/free`、过时的宏定义和拼写错误的变量均已被移除；所有代码示例均采用标准的 `new/delete` 面向对象 C++ 实现，兼容 C++11 及以上标准。
+两份讲义中，所有 C 风格的 `malloc/free`、过时的宏定义和拼写错误的变量均已被移除；所有代码示例均采用标准的 `new/delete` 面向对象 C++ 实现，兼容 C++11 及以上标准。
 
 ## 核心内容
 
@@ -171,8 +176,7 @@ When handwriting code on paper exams, professors generally accept raw pointers a
 
 ### 对贡献者
 
-- 免费用于个人学习与课堂辅助教学
-- 禁止商业使用、二次包装与未经授权转载
+- 依 MIT 许可可自由使用、修改与再分发，请保留版权声明
 
 ## 笔试语言说明
 
@@ -180,4 +184,4 @@ When handwriting code on paper exams, professors generally accept raw pointers a
 
 ## 许可
 
-© Akiro。仅限个人学习使用，未经授权禁止商业再分发。
+[MIT License](LICENSE) © 2026 Akiro

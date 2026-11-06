@@ -10,6 +10,17 @@ This repository contains solutions to common linear algebra problem types, cover
 * Linear Equations
 * Eigenvalues & Eigenvectors
 
+## Files
+
+| File | Contents |
+| :--- | :--- |
+| [`Linear-Algebra.pdf`](Linear-Algebra.pdf) | Original exam paper |
+| [`Linear Algebra Exam Paper (Integrated Version).md`](<Linear Algebra Exam Paper (Integrated Version).md>) · [PDF](<Linear Algebra Exam Paper (Integrated Version).pdf>) | Exam problems with detailed solutions |
+| [`Linear-Algebra-Answer.pdf`](Linear-Algebra-Answer.pdf) | Standard answer key |
+| [`线性代数试卷答题（精简考场版）.pdf`](线性代数试卷答题（精简考场版）.pdf) | Concise exam-room version of the answers |
+| [`第6题详细解答（矩阵的秩与最大无关组）.pdf`](第6题详细解答（矩阵的秩与最大无关组）.pdf) | Step-by-step solution to Problem 6: matrix rank and maximal independent set |
+| [`线代期末速成.pdf`](线代期末速成.pdf) | Final-exam quick-review notes, organized by module |
+
 ## Solution Preview
 ### Example: Problem 2 - Vector Outer Product Operation
 Given $\alpha = [1, 2, 1]^T$, compute $(\alpha\alpha^T)^{100}$:
@@ -48,6 +59,17 @@ This project is open-sourced under the [MIT License](LICENSE).
 * 矩阵运算与可逆性 (Matrix Operations)
 * 线性方程组求解 (Linear Equations)
 * 特征值与特征向量 (Eigenvalues & Eigenvectors)
+
+## 文件
+
+| 文件 | 内容 |
+| :--- | :--- |
+| [`Linear-Algebra.pdf`](Linear-Algebra.pdf) | 原版试卷 |
+| [`Linear Algebra Exam Paper (Integrated Version).md`](<Linear Algebra Exam Paper (Integrated Version).md>) · [PDF](<Linear Algebra Exam Paper (Integrated Version).pdf>) | 期末习题与详细解析 |
+| [`Linear-Algebra-Answer.pdf`](Linear-Algebra-Answer.pdf) | 标准答案 |
+| [`线性代数试卷答题（精简考场版）.pdf`](线性代数试卷答题（精简考场版）.pdf) | 试卷答题精简考场版 |
+| [`第6题详细解答（矩阵的秩与最大无关组）.pdf`](第6题详细解答（矩阵的秩与最大无关组）.pdf) | 第 6 题分步详解：矩阵的秩与最大无关组 |
+| [`线代期末速成.pdf`](线代期末速成.pdf) | 按模块整理的期末速效复习笔记 |
 
 ## 解析预览
 ### 示例：第2题 - 向量外积运算
