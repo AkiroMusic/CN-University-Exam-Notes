@@ -16,10 +16,13 @@ Exam review notes for Chinese university courses, collected in one repository: *
 
 > **License note:** Everything is MIT-licensed — see the root [`LICENSE`](LICENSE); each folder carries its own copy.
 
+> **Languages:** Every course folder has an `en/` subfolder with a complete English edition of its documents (Markdown + PDF); the folder root keeps the original Chinese editions. README files are bilingual, English first.
+
 ## Usage
 
 - Clone or download the folder you need; every folder is self-contained.
 - Markdown files render directly on GitHub; PDFs are print-ready.
+- Prefer English? Read the files inside each folder's `en/` subfolder.
 
 ## Contact
 
@@ -46,10 +49,13 @@ Exam review notes for Chinese university courses, collected in one repository: *
 
 > **许可说明：** 全部内容均采用 MIT 许可——见根目录 [`LICENSE`](LICENSE)，各文件夹内附相同副本。
 
+> **语言：** 每个课程文件夹下有 `en/` 子文件夹，收录全部文档的完整英文版（Markdown + PDF）；文件夹根目录保留中文原版。README 为中英双语，英文在前。
+
 ## 使用方式
 
 - 按需克隆或下载对应文件夹，每个文件夹自成一体。
 - Markdown 文件可在 GitHub 直接渲染；PDF 适合打印。
+- 需要英文版？阅读各文件夹 `en/` 子文件夹内的文件。
 
 ## 联系方式
 
